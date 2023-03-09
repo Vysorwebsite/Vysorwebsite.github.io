@@ -149,3 +149,84 @@ html, body {
   cursor: pointer;
 
 }
+
+@media only screen and (max-device-width: 414px) {
+ #h1{
+   font-size:50px;
+ }
+ #center{
+   font-size:55px;
+ }
+ #para{
+   font-size:50px;
+   width:95%;
+   text-align: center;
+   margin-left:8px;
+   margin-top:10px;
+ }
+ .cards{
+   display:flex;
+   flex-direction: column;
+   margin:auto;
+   justify-content: center;
+   align-items: center;
+ }
+ .card{
+   height:430px;
+   width:520px;
+ }
+ #swords{
+   height:90px;
+   width:84px;
+
+   margin-left:220px;
+   align-items: center;
+   justify-content: center;
+   margin-top:10px;
+   border-radius:15px;
+ }
+ #one{
+   font-size: 30px;
+ }
+ #p1{
+   width:85%;
+   font-size: 31px;
+   margin-left:49px;
+
+ }
+ #one{
+   text-align:center;
+ }
+ #p2{
+   width:85%;
+   font-size: 31px;
+   margin-left:45px;
+
+ }
+ #p{
+   width:85%;
+   font-size: 31px;
+   margin-left:45px;
+
+ }
+ .card1{
+   height:700px;
+   width:600px;
+   margin-top: 20px;
+ }
+ #two{
+   font-size:45px;
+   text-align: center;
+ }
+ #p3{
+   font-size: 30px;
+   text-align: center;
+ }
+ #tick{
+   height:80%;
+   margin-top:24px;
+   margin-left:54px;
+
+ }
+
+}
